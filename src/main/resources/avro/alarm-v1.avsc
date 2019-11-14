@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "namespace": "com.rsunder",
+  "name": "Assignment",
+  "fields": [
+
+    {
+      "type": "string",
+      "name": "assignment_name"
+    },
+    {
+      "type": {"type" :"long",
+      "logicalType" :"timestamp-millis"},
+      "name": "created_at"
+    },
+    {
+      "type": "long",
+      "name": "id"
+    }
+  ]
+}
